@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Practica 10</title>
+        <h3>Acosta Chavez Hesly</h3>
+    </head>
+    
+    <body>
+        <table border = "1" cellspacing="2">
+            <form action="hesly.janeth.acosta.chavez@uabc.edu.mx" method="get" align="center">
+                <tr>
+                    <th align="center" colspan="2">Mi primer formulario</th>
+                </tr>
+                <tr>
+                    <th align="right">Nombre: </th>
+                    <td><input type="text" placeholder="No mayor a 50 caracteres"></td>
+                </tr>
+                <tr>
+                    <th align="right">Carrera que estudias: </th>
+                    <td><select name="carreras" id="carreras" size="2">
+                        <option value="LI">Licenciatura en Informática</option>
+                        <option value="LAE">Licenciatura en Administración de Empresas</option>
+                        <option value="LC">Licenciatura en Contaduría</option>
+                        <option value="LNI">Licenciatura en Negocios Internacionales</option>
+                        <option value="LIN">Licenciatura en Inteligencia de Negocios</option>
+                      </select></td>
+                </tr>
+                <tr>
+                    <th align="right">Horario: </th>
+                    <td><input type="radio">Matutino <br/>
+                        <input type="radio" autofocus>Vespertino</td>
+                </tr>
+                <tr>
+                    <th align="right">¿Qué te gusta de tu carrera? </th>
+                    <td><textarea name="comentarios" rows="6" cols="50" placeholder="No mayor a 150 caracteres"></textarea></td>
+                </tr>
+                <tr>
+                    <th align="right">Pregunta de seguridad <br/>¿Cuál es tu película favorita? </th>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <th align="right">Edad: </th>
+                    <td><input type="number" name="edad" min="18" max="80"/></td>
+                </tr>
+                <tr>
+                    <th align="right">Helados que te gustan: </th>
+                    <td><input type="checkbox" id="cbox1" value="chocolate"/>Chocolate<br/>
+                        <input type="checkbox" id="cbox2" value="Vainilla"/>Vainilla<br/>
+                        <input type="checkbox" id="cbox3" value="Fresa"/>Fresa<br/>
+                        <input type="checkbox" id="cbox4" value="Pistache"/>Pistache</td>
+                </tr>
+                <tr>
+                    <th align="right">Descríbete: </th>
+                    <td><textarea id="describete" name="describete" minlength="40" maxlength="100" required></textarea></td>
+                </tr>
+                <tr>
+                    <th align="right">Notificaciones: </th>
+                    <td><input type="checkbox" id="horns" name="Si" checked/>Sí quiero notificaciones<br/>
+                        <input type="checkbox" id="horns" name="No"/>No quiero notificaciones</td>
+                </tr>
+                <tr>
+                    <th align="right">¿Te agrada la carrera?: </th>
+                    <td>Casi nada<input type="range" min="1" max="10" step="1">Muchísimo</td>
+                </tr>
+            </form>
+        </table>
+    </body>
+</html>
