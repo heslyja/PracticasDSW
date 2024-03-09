@@ -1,0 +1,40 @@
+#bc
+{
+    width: 5cm;
+    height: 56mm;
+}
+#bin
+{
+    width: 3.5in;
+    height: 200px;
+}
+#felix
+{
+    width: 170pt;
+    height: 18pc;
+}
+#han
+{
+    width: 17em;
+    height: 40ex;
+}
+#in
+{
+    width: 17rem;
+    height: 20rem;
+}
+#jin
+{
+    width: 17vw;
+    height: 23vw;
+}
+#lino
+{
+    width: 40vh;
+    height: 40vh;
+}
+#min
+{
+    width: 20vmin;
+    height: 20vmax;
+}
