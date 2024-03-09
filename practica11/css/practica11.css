@@ -1,0 +1,52 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  background-color: rgb(255, 255, 233);
+  text-align: center;
+}
+#header, #nav, #footer, .contenedor
+{
+  width: 100%;
+  border: 1px solid;
+}
+body
+{
+  margin: 10px 10px;
+  height: 100vh;
+}
+#header, #footer
+{
+  background: tomato;
+  height: 10%;
+}
+#nav
+{
+  background: pink;
+  height: 5%;
+  margin-top: 1%;
+}
+.contenedor
+{
+  display: flex;
+  height: 65%;
+  justify-content: space-around;
+}
+.article, #section
+{
+  height: 90%;
+  margin-top: 22px;
+  border: 1px solid;
+}
+.article
+{
+  background: skyblue;
+  width: 22%;
+  margin-left: 1px;
+}
+#section
+{
+  background: teal;
+  width: 50%;
+  margin-right: 1px;
+}
